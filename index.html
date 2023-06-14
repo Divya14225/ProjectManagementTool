@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project Management Tool</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <section class="form">
+                    <header>Task assign Form</header>
+                    <form>
+                        <div class="name-details">
+                            <div class="field input">
+                                <label for="User name"></label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="field input">
+                                <label for="Task name"></label>
+                                <input type="text" id="tname" required>
+                            </div>
+                            <div class="field input">
+                                <label for="Task description"></label>
+                                <textarea id="t desc"required></textarea>
+                            </div>
+                            <div class="field button">
+                                <input type="submit" value="Assign"
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <div id="Task list" class="list">
+                <h1>Pending Tasks</h1>
+                
+            </div>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+
+</html>
